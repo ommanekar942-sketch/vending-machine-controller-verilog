@@ -52,12 +52,6 @@ Inputs included in the testbench:
 - Cancel signal  
 - Reset and clock  
 
-Example setup inside the testbench:
-
-```verilog
-$dumpfile("vending_machine.vcd");
-$dumpvars(0, vending_machine_tb);
-
 /*-------------------------------------------------------------------------------------------------------*/
 
 FSM Summary
