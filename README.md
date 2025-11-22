@@ -8,7 +8,7 @@ simple finite state machine (FSM).
 The repository includes:
 - Verilog RTL 
 - Testbench 
-- VCD waveform output and screenshots
+- VCD waveform output
 
 ---
 
