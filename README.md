@@ -54,7 +54,7 @@ Inputs included in the testbench:
 
 ---
 
-FSM Summary
+## FSM Summary
 
 The controller operates as follows:
 
