@@ -52,7 +52,7 @@ Inputs included in the testbench:
 - Cancel signal  
 - Reset and clock  
 
-/*-------------------------------------------------------------------------------------------------------*/
+---
 
 FSM Summary
 
