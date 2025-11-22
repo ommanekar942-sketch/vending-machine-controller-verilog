@@ -16,27 +16,24 @@ The repository includes:
 
 The vending machine supports five products, each with a different price:
 
-- Wafers → 10
-- Toffees → 7
-- Water Bottle → 18
-- Cold Drink → 30
-- Biscuits → 22
+- Wafers --> 10
+- Toffees --> 7
+- Water Bottle --> 18
+- Cold Drink --> 30
+- Biscuits --> 22
 
 The controller uses six states:
-
-| State | Description              |
-|--------|--------------------------|
-| start | Initialize machine       |
-| select_product | Read product selection |
-| insert_the_coin | Wait for coin input or cancel |
-| Cancel | Return refund           |
-| check_the_statements | Compare price vs. coins |
-| done | Dispense item and reset  |
+start --> Initialize machine      
+select_product --> Read product selection 
+insert_the_coin --> Wait for coin input or cancel 
+Cancel --> Return refund           
+check_the_statements --> Compare price vs. coins 
+done --> Dispense item and reset  
 
 The main outputs controlled by the FSM are:
-- dispense — delivers the selected product  
-- refund — returns coins when cancel is pressed  
-- change — remaining balance after purchase  
+- dispense --> delivers the selected product  
+- refund --> returns coins when cancel is pressed  
+- change --> remaining balance after purchase  
 
 ---
 
